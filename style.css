@@ -1,0 +1,10 @@
+.brandDash {
+    background: #428DCF;
+    background: linear-gradient(to right, #428DCF 0%, #43CF3E 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mo{
+    backdrop-filter: blur(10px);
+}

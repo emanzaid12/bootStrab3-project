@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 ">
+                <div class="card mt-5 shadow-lg">
+                    <div class="card-header text-bg-primary">
+                        Login as admin
+                    </div>
+                    <div class="card-body">
+                        <form action="dash.html">
+                            <!-- Username -->
+                           <div class="form-floating mb-3">
+                            <input type="text"  id="userName" class="form-control"placeholder="eman" autofocus >
+                            <label for="userName">Username</label>
+                           </div>
+                              <!-- Password -->
+                            <div class="form-floating mb-3">
+                                <input type="password" id="passWord" class="form-control" placeholder="****" > 
+                                <label for="passWord">Password</label>
+                            </div>
+                              <!-- Rememeber me -->
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe">
+                                <label for="rememberMe">Rememeber me</label>
+                            </div>
+                            <!-- Login Button -->
+                            <div class="d-grid" >
+                                <button type="submit" class="btn btn-success"><i class="fa-solid fa-right-to-bracket"></i> Login as admin</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   <script src="./bootstrap/js/bootstrap.bundle.js"></script> 
+</body>
+</html>
